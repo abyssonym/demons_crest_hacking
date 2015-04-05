@@ -4,32 +4,18 @@ URL:        github.com/abyssonym
 Contact:    twitter.com/abyssonym
 
 GAME LEVEL DATA
-981A: Pointers to level exit data. Uncertain format.
-    destination dest-height animation x-coordinate ??? y-coordinate
-A1A9: Pointers related to starting coordinates when entering a level. Always a multiple of 5.
-A291: Pointers to level screen data.
-    One of the first two bytes is number of bytes to read. (?) Each byte is one 16x16 screen.
-    Screens are tiled horizontally along the top of the level first, then the next row, etc.
-    After the entire level is tiled, the next screens are used in the background.
-    Fewer screens are needed for background data because of the parallax scrolling. (?)
-A6D8: Pointers to some kind of general level information.
-    First two bytes are level dimensions (width x height, in number of screens)
-B2F3: Level layer order byte (is Firebrand in the background/foreground, etc.)
-C874: Pointers to enemy and object data! (3 bytes per pointer)
-    First byte is number of objects to read. Each object is 6 bytes.
-    Format: 2 bytes object type, 2 bytes x coordinate, 2 bytes y coordinate.
-        Objects can be placed anywhere in the level, regardless of screen.
-        The 1st byte (low-order byte) of object type is more important.
-        The 2nd byte is things like object's facing direction. (?)
-    84D031 -> 25031 (The first level's object data)
-7C800: Level screen tile data (128 bytes per screen).
-    Each screen is 16x16 tiles. Every 2 bytes is a 2x2 tile square. 128 bytes total.
-    2x2 tile squares are tiled horizontally. Each row is 8 2x2 tile squares. There are 8 rows.
+    981A: Pointers to level exit data. Uncertain format. (destination dest-height animation x-coordinate ??? y-coordinate)
+    A1A9: Pointers related to starting coordinates when entering a level. Always a multiple of 5.
+    A291: Pointers to level screen data. One of the first two bytes is number of bytes to read. (?) Each byte is one 16x16 screen. Screens are tiled horizontally along the top of the level first, then the next row, etc. After the entire level is tiled, the next screens are used in the background. Fewer screens are needed for background data because of the parallax scrolling. (?)
+    A6D8: Pointers to some kind of general level information. First two bytes are level dimensions (width x height, in number of screens)
+    B2F3: Level layer order byte (is Firebrand in the background/foreground, etc.)
+    C874: Pointers to enemy and object data! (3 bytes per pointer) First byte is number of objects to read. Each object is 6 bytes. Format: 2 bytes object type, 2 bytes x coordinate, 2 bytes y coordinate. Objects can be placed anywhere in the level, regardless of screen. The 1st byte (low-order byte) of object type is more important. The 2nd byte is things like object's facing direction. (?) 84D031 -> 25031 (The first level's object data)
+    7C800: Level screen tile data (128 bytes per screen). Each screen is 16x16 tiles. Every 2 bytes is a 2x2 tile square. 128 bytes total. 2x2 tile squares are tiled horizontally. Each row is 8 2x2 tile squares. There are 8 rows.
 
 EXAMPLE
-    The reservoir level next to the town is the sixth map (index 5).
-    Tiles: a29b -> a3e0 (26 screens, 16 playable, 10 background)
-    Objects: c883 -> 251f2 (38 objects)
+The reservoir level next to the town is the sixth map (index 5).
+Tiles: a29b -> a3e0 (26 screens, 16 playable, 10 background)
+Objects: c883 -> 251f2 (38 objects)
 
 LEVEL PALETTE DATA
 8479: Pointers to palettes for enemies and other objects
@@ -37,7 +23,7 @@ LEVEL PALETTE DATA
 89f1: Pointers to palettes for structures and background
 
 OTHER LEVEL DATA
-AD9D: Mystery byte that changes graphics of some objects for the entire level.
+AD9D: Mystery byte that changes graphics of some objects for the level.
 AE11: Pointer to some kind of graphical info for objects in the level. (?)
 
 OTHER POINTER TABLES TO LOOK AT
