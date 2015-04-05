@@ -1,0 +1,15 @@
+0 Coliseum
+1 Coliseum 2
+2 Coliseum 3
+3 Coliseum 4
+4 Village
+5 Reservoir
+6 Underground Cave 1
+7 Underground Cave 2
+8 Underground Cave 3
+9 Boneyard
+a Forest 1
+b
+c Forest 2
+d
+e Forest 3

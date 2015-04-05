@@ -1,0 +1,212 @@
+0005
+0009 Hippogriff
+0013
+0016
+001a
+0028 Flame Lord
+002b
+0050
+0052
+0057 Vase A
+0058
+005c
+005d
+005e
+0067
+0069 Ovununu (slime)
+006b Ovununu (big eye)
+006c Ovununu (small eye)
+007b
+0086
+0088
+0089
+00a5 Arma 1
+00be
+00bf
+0150
+016c Ovununu (small eye)
+0193
+0209
+0213
+0216
+021a
+0257 Vase B
+026c Ovununu (small eye)
+02a5
+036c Ovununu (small eye)
+0409
+041a
+0457 Vase (full health)
+046c Ovununu (small eye)
+04a5
+056c Ovununu (small eye)
+0657 Special Vase???
+066c Ovununu (small eye)
+076c Ovununu (small eye)
+0857 Special Vase???
+086c Ovununu (small eye)
+096c Ovununu (small eye)
+0a57
+0a6c Ovununu (tendrils)
+0c57
+0e57
+1057
+422e
+462d Urn?
+462e
+4749 Life Extension
+482e Hand Talisman
+4a2d Urn
+4a49 Life Extension
+4c2d Urn
+4e2d Urn
+502d
+522d
+8001 Crumbling Wall
+8002
+8006
+8007 Walking Carnivorous Plant A
+8008 Twin Demon Statue
+8010 Green Frog Demon
+8012
+801d Fire-eater Ghost
+801e
+8020
+8022 Vine
+8024 Door A
+8025 Secret Door A
+8026 Floating Platform (horizontal)
+8027
+802f
+8030
+8033 Somulo
+8050
+8063 Eyeball Bat A
+8067 Statue (vellum)
+806a
+806f
+8071
+8072 Cloaked Zombie A
+8073 Vampire Bat
+8074 Belth
+8079 Floating Armor Demon
+807d Crawler
+8082
+8090
+8092
+8093
+8096
+8098
+809b
+809c
+809d
+809e
+809f
+80ae
+80b0
+80b1
+8106
+8107 Walking Carnivorous Plant B
+8112
+8115
+8124 Door B
+8125 Secret Door B?
+8130
+8150
+8163 Eyeball Bat B
+8168 Underground Zombie Head (right)
+8170
+8172 Cloaked Zombie B
+8179 Floating Armor Demon?
+8181 Ghost Demon
+8182
+8193
+8196
+819b
+819e
+81b0
+8206
+8224 Door C
+8226 Floating Platform (vertical)
+8261 Fire Skull (stand)
+8268 Underground Zombie Head (left)
+8270
+8279
+8292
+8298
+829b
+829e
+829f
+82b0
+82b1
+8306
+8307
+8326 Floating Platform (vertical) 2
+839b
+839e
+83b0
+842c Crumbling Pillar
+843e Stepping Stone Demon A
+8461 Fire Skull (spread)
+8466
+8467 Axe Goblin
+8468 Underground Zombie A (left)
+8498
+849b
+849d
+849e
+84b0
+84b1
+853e
+8579
+859b
+859e
+85b0
+863e Stepping Stone Demon B
+8661
+8666
+8698
+869b
+86b0
+8768 Underground Zombie B
+879b
+879d
+87b0
+882f
+8866
+8867
+8898
+889d
+88b0
+89b0
+8a5f
+8a66
+8a98
+8ab0
+8bb0
+8c66
+8cb0
+8db0
+8fb0
+9010
+9066
+9096
+90b0
+9196
+91b0
+9266
+92b0
+9466
+a196
+a296 Town Guy
+a396
+a496
+a596
+b065 Skull-throwing Demon (left)
+c015
+c064 Furry Skull Caterpillar
+c467
+c867
+f065 Skull-throwing Demon (right)
+f468 Underground Zombie A (right)
+ff7d
